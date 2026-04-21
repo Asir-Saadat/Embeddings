@@ -4,7 +4,7 @@ import torch.nn as nn
 import os
 import numpy as np
 from models.get_resnet import get_model
-from data.data_loader import get_dataloader
+from data_loader import get_dataloader
 from extract_features import extract_features
 from clustering import cluster_features
 from visualize import visualize_tsne
